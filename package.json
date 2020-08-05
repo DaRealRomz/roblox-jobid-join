@@ -1,0 +1,32 @@
+{
+  "name": "roblox-jobid-join",
+  "version": "1.0.0",
+  "description": "Roblox JobId Join allows you to join a Roblox server with a specific job ID!",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint --fix src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaRealRomz/roblox-jobid-join.git"
+  },
+  "keywords": [
+    "extension",
+    "roblox"
+  ],
+  "author": "DaRealRomz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaRealRomz/roblox-jobid-join/issues"
+  },
+  "homepage": "https://github.com/DaRealRomz/roblox-jobid-join#readme",
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "prettier": "^2.0.5"
+  }
+}
