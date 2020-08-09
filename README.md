@@ -1,8 +1,12 @@
 # Roblox JobId Join Chrome Extension
 
-This chrome extension allows you to join a Roblolx server with a specific job ID.
+This browser extension allows you to join a Roblolx server with a specific job ID.
 
 This extension is intended to allow games to generate direct links to servers. A job ID can be obtained with [`game.JobId`](https://developer.roblox.com/en-us/api-reference/property/DataModel/JobId) in Roblox Lua.
+
+It is available on the following platforms:
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/roblox-jobid-join/pdeebkpgdaflejgihpbniammmelkdnac)
+- [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/roblox-jobid-join)
 
 ## Usage
 
