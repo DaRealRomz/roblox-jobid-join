@@ -11,6 +11,11 @@
       "js": ["injector.js"]
     }
   ],
-  "web_accessible_resources": ["launch.js"],
-  "manifest_version": 2
+  "web_accessible_resources": [
+    {
+      "resources": ["launch.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "manifest_version": 3
 }
