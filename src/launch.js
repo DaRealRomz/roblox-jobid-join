@@ -1,8 +1,6 @@
 (function main() {
-  const params = new URLSearchParams(window.location.search);
-  const jobId = params.get("serverJobId");
-  if (jobId) {
-    const placeId = window.location.pathname.match(/\/(\d+)\/.+?$/)[1];
-    window.Roblox.GameLauncher.joinGameInstance(placeId, jobId);
-  }
+  const launch = document.getElementById("jobIdLaunch");
+  const jobId = launch.getAttribute("data-job-id");
+  const placeId = launch.getAttribute("data-place-id");
+  window.Roblox.GameLauncher.joinGameInstance(placeId, jobId);
 })();
